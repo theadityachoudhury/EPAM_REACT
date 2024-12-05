@@ -1,0 +1,15 @@
+.header{
+    @apply flex justify-between m-3
+}
+
+.header__container{
+    @apply shadow-md p-1
+}
+
+.header__logo{
+    @apply w-5 h-5
+}
+
+.header__nav{
+    @apply flex space-x-2
+}

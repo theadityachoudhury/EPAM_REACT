@@ -1,0 +1,24 @@
+.course__info__container{
+    @apply mx-20 my-10 space-y-2;
+}
+
+.course__info__data{
+    @apply shadow-lg border p-5 rounded-md space-y-2;
+}
+
+.course__info__data > h1{
+    @apply text-3xl font-bold;
+}
+
+.course__info__data > div{
+    @apply flex space-x-10 text-xl;
+}
+
+.course__info__description{
+    @apply text-justify;
+}
+
+.course__info__data > .course__info__metadata:last-child{
+    @apply mt-10 font-mono;
+    
+}

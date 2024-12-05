@@ -1,0 +1,18 @@
+.custom-button {
+	@apply flex items-center justify-center bg-[#007298] text-white px-4 py-2 rounded-md uppercase font-bold text-sm;
+  }
+  
+  .icon-button {
+	@apply p-3;
+	width: 40px;
+	height: 40px;
+  }
+  
+  .button-icon {
+	@apply mr-2;
+  }
+  
+  .button-title {
+	@apply text-base;
+  }
+  
